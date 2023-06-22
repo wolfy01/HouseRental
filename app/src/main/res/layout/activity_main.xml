@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCF8F2"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to HouseRent"
+        android:textSize="26sp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#0A0EEF"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Sign Up"
+        android:layout_below="@+id/login_button"
+        android:backgroundTint="#0A0EEF"
+        android:layout_centerHorizontal="true"/>
+
+</LinearLayout>
